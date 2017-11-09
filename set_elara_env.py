@@ -19,6 +19,7 @@ def set_elara_env():
     os.environ["ELARA_SHOTGUN_ID"] = "68"
 
     os.environ["SHOTGUN_HOME"] = "~/.shotgun"
+    os.environ["SHOTGUN_BUNDLE_CACHE_PATH"] = "/data/orgs/Foundry/plugins/shotgun/plugin_build/bundle_cache"
 
 
 set_elara_env()
